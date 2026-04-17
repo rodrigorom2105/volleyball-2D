@@ -349,7 +349,7 @@ public class ScoreManager : MonoBehaviour
         sr.color = Color.white;
         sr.drawMode = SpriteDrawMode.Simple;  // Usa tamaño natural del sprite
         sr.sortingOrder = 5;
-        sr.flipX = false;
+        sr.flipX = (player.name == "Player2");
 
         if (sprite != null)
         {
